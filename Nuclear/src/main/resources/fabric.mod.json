@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nuclear",
+  "version": "${version}",
+  "name": "Nuclear Client",
+  "description": "based 1.19 utility mod",
+  "authors": [
+    "Twelve"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nuclear/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.twelve.nuclear.client.NuclearMain"
+    ]
+  },
+  "mixins": [
+    "nuclear.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}

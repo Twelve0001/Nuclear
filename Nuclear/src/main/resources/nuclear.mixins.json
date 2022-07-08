@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.twelve.nuclear.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ILivingEntityMixin"
+  ],
+  "client": [
+    "ChatScreenMixin",
+    "ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
